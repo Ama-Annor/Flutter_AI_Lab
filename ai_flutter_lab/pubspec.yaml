@@ -1,0 +1,29 @@
+name: ai_flutter_lab
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # cupertino_icons: ^1.0.8
+  # http: ^1.1.0
+  # provider: ^6.0.5
+  flutter_dotenv: ^5.1.0
+  
+  google_generative_ai: ^0.1.0  # Add this line for Gemini
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  #assets section to include your .env file
+  assets:
+    - .env
